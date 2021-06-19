@@ -9,6 +9,11 @@
   src: url("../fonts/Cantarell-Bold.ttf");
   font-style: normal;
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Black.ttf");
+  font-style: normal;
+}
 /* GENERALES */
 * {
   margin: 0px;
@@ -73,6 +78,8 @@ p {
   margin-top: 10px;
   font-size: 20px;
   text-align: center;
+  font-family: "AnonymousPro";
+  color: white;
 }
 
 /* SECCION */
@@ -96,8 +103,6 @@ section .exp {
   background-color: transparent;
 }
 
-section #experiencia {
-}
 section h2 {
   font-size: 45px;
   font-family: "AnonymousPro";
